@@ -1,11 +1,7 @@
 import "./App.css";
 import Logo from "./components/Logo";
-import IconePerfil from "./image/perfil.svg"
-import IconeSacola from "./image/sacola.svg"
-
-
-const textoOpcoes = ["Categorias", "Favoritos", "Minha Estante"];
-const icones = [IconePerfil, IconeSacola]
+import OpcoesHeader from "./components/OpcoesHeader";
+import OpcoesIcones from "./components/OpcoesIcones";
 
 function App() {
   return (
@@ -13,18 +9,10 @@ function App() {
       <header className="App-header">
         <Logo />
 
-        <ul className="menu">
-          {textoOpcoes.map((texto) => {
-            return ( <li className="opçãomenu"> <p>{texto}</p> </li>);
-          })}
-        </ul>
+        <OpcoesHeader />
 
-        <ul className="icones">
-          {icones.map((icone) => {
-            return ( <li className="icone"> <img src={icone} alt="icone" /> </li>);
-          })}
+        <OpcoesIcones/>
 
-        </ul>
       </header>
     </div>
   );
