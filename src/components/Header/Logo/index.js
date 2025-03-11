@@ -1,14 +1,26 @@
 import logo from "../../../image/logo.svg";
-import "./style.css";
+import styled from "styled-components";
+
+const LogoContainer = styled.div`
+  display: flex;
+  font-size: 30px;
+`;
+
+const LogoImagem = styled.img`
+  margin-right: 10px;
+`;
 
 function Logo() {
   return (
-    <div className="logo">
-      <img src={logo} className="logo-img" alt="logo" />
+    <LogoContainer>
+
+      <LogoImagem src={logo} alt="logo" />
+
       <p>
         <strong> Clube</strong> dos Livros
       </p>
-    </div>
+
+    </LogoContainer>
   );
 }
 
