@@ -1,6 +1,6 @@
 import "./style.css";
-import IconePerfil from "../../image/perfil.svg"
-import IconeSacola from "../../image/sacola.svg"
+import IconePerfil from "../../../image/perfil.svg"
+import IconeSacola from "../../../image/sacola.svg"
 
 const icones = [IconePerfil, IconeSacola]
 
