@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Pesquisar from "./components/Pesquisar";
 import styled from "styled-components";
 
 // Crio um container para o elemento que desejo estilizar que nesse caso é a div
@@ -14,6 +15,8 @@ function App() {
     <AppContainer> 
 
         <Header />
+
+        <Pesquisar />
 
     </AppContainer>
   );
