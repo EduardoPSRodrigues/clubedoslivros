@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Projeto Clube dos Livros em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido utilizando a biblioteca React com a técnica de componentização. A aplicação contém três componentes principais: `Header`, `Pesquisar` e `UltimosLancamentos`.
 
-## Available Scripts
+## Estrutura do Projeto
 
-In the project directory, you can run:
+A estrutura do projeto é organizada da seguinte forma:
 
-### `npm start`
+### Componentes Principais
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Header**: Componente responsável pela renderização do cabeçalho da aplicação.
+2. **Pesquisar**: Componente que permite a pesquisa de livros.
+3. **UltimosLancamentos**: Componente que exibe os últimos lançamentos de livros.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Estilização
 
-### `npm test`
+A estilização dos componentes é feita utilizando a biblioteca `styled-components`. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Exemplo de estilização:
 
-### `npm run build`
+```javascript
+const AppContainer = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #002f52 35%, #326589 165%);
+`;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Iniciando a Aplicação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para rodar a aplicação, siga os seguintes passos:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório para a sua máquina local.
+2. Navegue até o diretório do projeto.
+3. Instale as dependências utilizando o comando `npm install`.
+4. Execute a aplicação com o comando `npm start`.
 
-### `npm run eject`
+## Contribuições
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a MIT License.
